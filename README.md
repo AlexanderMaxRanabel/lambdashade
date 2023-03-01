@@ -8,8 +8,6 @@
     A Minecraft 1.19 utility client for Fabric forked from Meteor Client
 </p>
 
-## Lambda Shade is designed to be a reimplemetation of MatHax
-
 ### Building
 - Clone this repository
 - Run `./gradlew build`
