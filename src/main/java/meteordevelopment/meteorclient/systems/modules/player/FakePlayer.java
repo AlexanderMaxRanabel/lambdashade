@@ -22,7 +22,7 @@ public class FakePlayer extends Module {
     public final Setting<String> name = sgGeneral.add(new StringSetting.Builder()
         .name("name")
         .description("The name of the fake player.")
-        .defaultValue("seasnail8169")
+        .defaultValue("IKER_Luvely")
         .build()
     );
 
