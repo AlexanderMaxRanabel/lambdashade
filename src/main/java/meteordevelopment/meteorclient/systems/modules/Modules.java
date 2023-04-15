@@ -393,6 +393,7 @@ public class Modules extends System<Modules> {
         add(new AutoEXP());
         add(new AutoTotem());
         add(new AutoTrap());
+        add(new AutoBedTrap());
         add(new AutoWeapon());
         add(new AutoWeb());
         add(new BedAura());
@@ -420,6 +421,7 @@ public class Modules extends System<Modules> {
         add(new AutoMend());
         add(new AutoReplenish());
         add(new AutoTool());
+        add(new AfkLogout());
         add(new ChestSwap());
         add(new EXPThrower());
         add(new FakePlayer());
@@ -439,11 +441,14 @@ public class Modules extends System<Modules> {
         add(new Reach());
         add(new Rotation());
         add(new SpeedMine());
+        add(new HushDisconnect());
+        add(new Confuse());
     }
 
     private void initMovement() {
         add(new AirJump());
         add(new Anchor());
+        add(new AntiCrash());
         add(new AntiAFK());
         add(new AntiVoid());
         add(new AutoJump());
@@ -500,6 +505,7 @@ public class Modules extends System<Modules> {
         add(new Marker());
         add(new Nametags());
         add(new NoRender());
+        add(new NewChunks());
         add(new BlockESP());
         add(new StorageESP());
         add(new TimeChanger());
@@ -542,6 +548,7 @@ public class Modules extends System<Modules> {
         add(new Timer());
         add(new VeinMiner());
         add(new HighwayBuilder());
+        add(new InstantMiner());
     }
 
     private void initMisc() {
