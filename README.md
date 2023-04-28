@@ -3,7 +3,6 @@
 </p>
 
 <h1 align="center">Lambda Shade
-<h1 align="center">WARNING LAMBDA SHADE IS CURRENTLY BEING REMADE FOR MINECRAFT 1.19.4. SOME FEATURES MIGHT BE MISING BECAUSE THEY ARE BEING PORTED FROM ADDONS
 <p align="center">
     A Minecraft 1.19 utility client for Fabric forked from Meteor Client
 </p>
