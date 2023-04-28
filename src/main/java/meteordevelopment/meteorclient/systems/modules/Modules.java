@@ -470,6 +470,7 @@ public class Modules extends System<Modules> {
         add(new NoSlow());
         add(new Parkour());
         add(new ReverseStep());
+        add(new PacketFlyPlus());
         add(new SafeWalk());
         add(new Scaffold());
         add(new Slippy());
