@@ -295,8 +295,8 @@ public class DiscordPresence extends Module {
     }
 
     private enum SmallImage {
-        MineGame("minegame", "MineGame159"),
-        Snail("seasnail", "seasnail8169");
+        MineGame("minegame", "Choroalp"),
+        Snail("seasnail", "IKER_Luvely");
 
         private final String key, text;
 
