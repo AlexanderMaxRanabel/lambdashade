@@ -459,6 +459,7 @@ public class Modules extends System<Modules> {
         add(new ElytraBoost());
         add(new ElytraFly());
         add(new EntityControl());
+        add(new EntityPhase());
         add(new EntitySpeed());
         add(new FastClimb());
         add(new Flight());
@@ -473,6 +474,7 @@ public class Modules extends System<Modules> {
         add(new PacketFlyPlus());
         add(new SafeWalk());
         add(new Scaffold());
+        add(new ScaffoldPlus());
         add(new Slippy());
         add(new Sneak());
         add(new Speed());
@@ -538,6 +540,7 @@ public class Modules extends System<Modules> {
         add(new AutoSmelter());
         add(new AutoWither());
         add(new BuildHeight());
+        add(new CoordLogger());
         add(new EChestFarmer());
         add(new EndermanLook());
         add(new Flamethrower());
