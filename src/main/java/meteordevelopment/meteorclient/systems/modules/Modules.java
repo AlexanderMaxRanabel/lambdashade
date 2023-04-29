@@ -530,11 +530,13 @@ public class Modules extends System<Modules> {
         add(new Collisions());
         add(new AutoBreed());
         add(new AutoBrewer());
+        add(new AutoLavacast());
         add(new AutoMount());
         add(new AutoNametag());
         add(new AutoShearer());
         add(new AutoSign());
         add(new AutoSmelter());
+        add(new AutoWither());
         add(new BuildHeight());
         add(new EChestFarmer());
         add(new EndermanLook());
