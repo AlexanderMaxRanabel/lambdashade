@@ -24,7 +24,7 @@ Following Distros are supported:
 - Arch and its forks EXCEPT Manjaro
 - Debian and its forks EXCEPT Ubuntu
 
-Windows 10+ is supported
+Windows 8+ is supported
 macOS IS NOT SUPPORTED
 
 ### License
