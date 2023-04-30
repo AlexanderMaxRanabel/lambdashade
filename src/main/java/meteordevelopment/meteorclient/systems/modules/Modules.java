@@ -33,6 +33,7 @@ import meteordevelopment.meteorclient.systems.modules.render.marker.Marker;
 import meteordevelopment.meteorclient.systems.modules.world.Timer;
 import meteordevelopment.meteorclient.systems.modules.world.*;
 import meteordevelopment.meteorclient.utils.Utils;
+import meteordevelopment.meteorclient.utils.misc.AntiVanish;
 import meteordevelopment.meteorclient.utils.misc.Keybind;
 import meteordevelopment.meteorclient.utils.misc.MeteorIdentifier;
 import meteordevelopment.meteorclient.utils.misc.ValueComparableMap;
@@ -396,6 +397,7 @@ public class Modules extends System<Modules> {
         add(new AutoBedTrap());
         add(new AutoWeapon());
         add(new AutoWeb());
+        add(new AutoTNT());
         add(new BedAura());
         add(new BowAimbot());
         add(new BowSpam());
@@ -435,6 +437,7 @@ public class Modules extends System<Modules> {
         add(new NoRotate());
         add(new OffhandCrash());
         add(new PacketMine());
+        add(new PauseOnUnloaded());
         add(new Portals());
         add(new PotionSaver());
         add(new PotionSpoof());
@@ -455,6 +458,8 @@ public class Modules extends System<Modules> {
         add(new AutoWalk());
         add(new Blink());
         add(new BoatFly());
+        add(new BoatGlitch());
+        add(new BoatPhase());
         add(new ClickTP());
         add(new ElytraBoost());
         add(new ElytraFly());
@@ -560,6 +565,7 @@ public class Modules extends System<Modules> {
     private void initMisc() {
         add(new Swarm());
         add(new AntiPacketKick());
+        add(new AntiVanish());
         add(new AutoClicker());
         add(new AutoLog());
         add(new AutoReconnect());
