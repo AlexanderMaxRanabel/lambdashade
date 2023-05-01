@@ -407,6 +407,7 @@ public class Modules extends System<Modules> {
         add(new Hitboxes());
         add(new HoleFiller());
         add(new KillAura());
+        add(new JumpAura());
         add(new Offhand());
         add(new Quiver());
         add(new SelfAnvil());
@@ -476,10 +477,10 @@ public class Modules extends System<Modules> {
         add(new NoSlow());
         add(new Parkour());
         add(new ReverseStep());
-        add(new PacketFlyPlus());
         add(new SafeWalk());
         add(new Scaffold());
         add(new ScaffoldPlus());
+        add(new ShieldBypass());
         add(new Slippy());
         add(new Sneak());
         add(new Speed());
@@ -574,7 +575,9 @@ public class Modules extends System<Modules> {
         add(new BetterChat());
         add(new BetterTab());
         add(new BookBot());
+        add(new CustomPackets());
         add(new DiscordPresence());
+        add(new Generator());
         add(new MessageAura());
         add(new MiddleClickFriend());
         add(new NameProtect());

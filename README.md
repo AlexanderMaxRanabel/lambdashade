@@ -10,7 +10,7 @@
 ### Building
 - Clone this repository
 - Run `./gradlew build`
-
+- We recommend Amazon Corretto 16 JDK for Build
 
 ### Contribution
 
