@@ -405,7 +405,7 @@ public class Modules extends System<Modules> {
         add(new Hitboxes());
         add(new HoleFiller());
         add(new KillAura());
-        add(new JumpAura());
+        add(new KillAuraPlus());
         add(new Offhand());
         add(new Quiver());
         add(new SelfAnvil());
@@ -452,6 +452,7 @@ public class Modules extends System<Modules> {
         add(new Anchor());
         add(new AntiCrash());
         add(new AntiAFK());
+        add(new AutoFloor());
         add(new AntiVoid());
         add(new AutoJump());
         add(new AutoWalk());
@@ -462,6 +463,7 @@ public class Modules extends System<Modules> {
         add(new ClickTP());
         add(new ElytraBoost());
         add(new ElytraFly());
+        add(new ElytraPlus());
         add(new EntityControl());
         add(new EntityPhase());
         add(new EntitySpeed());
@@ -521,6 +523,7 @@ public class Modules extends System<Modules> {
         add(new Trajectories());
         add(new UnfocusedCPU());
         add(new VoidESP());
+        add(new VisualEffects());
         add(new WallHack());
         add(new WaypointsModule());
         add(new Xray());
@@ -555,6 +558,8 @@ public class Modules extends System<Modules> {
         add(new Nuker());
         add(new StashFinder());
         add(new SpawnProofer());
+        add(new SoundLocator());
+        add(new SignColors());
         add(new Timer());
         add(new VeinMiner());
         add(new HighwayBuilder());

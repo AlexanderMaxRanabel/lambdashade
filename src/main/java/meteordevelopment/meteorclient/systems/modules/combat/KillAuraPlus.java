@@ -13,7 +13,7 @@ import net.minecraft.util.Hand;
 
 import java.util.ArrayList;
 
-public class JumpAura extends Module {
+public class KillAuraPlus extends Module {
     private final SettingGroup sgGeneral = settings.getDefaultGroup();
 
     private final Setting<Boolean> onJump = sgGeneral.add(new BoolSetting.Builder()
@@ -51,8 +51,8 @@ public class JumpAura extends Module {
         .build()
     );
 
-    public JumpAura() {
-        super(Categories.Combat, "ZKillaura", "Killaura.");
+    public KillAuraPlus() {
+        super(Categories.Combat, "killaura-plus", "Killaura but slightly better.");
     }
 
     ArrayList<LivingEntity> list = new ArrayList<>();
