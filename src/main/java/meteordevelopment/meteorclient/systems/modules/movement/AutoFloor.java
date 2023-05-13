@@ -20,8 +20,6 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.util.math.BlockPos;
 
-import meteordevelopment.meteorclient.systems.modules.movement.Utils;
-
 import java.util.List;
 
 public class AutoFloor extends Module {

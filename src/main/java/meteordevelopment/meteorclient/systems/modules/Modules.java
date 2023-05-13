@@ -421,6 +421,7 @@ public class Modules extends System<Modules> {
         add(new AutoGap());
         add(new AutoMend());
         add(new AutoReplenish());
+        add(new AutoGrind());
         add(new AutoTool());
         add(new AfkLogout());
         add(new ChestSwap());
@@ -460,6 +461,7 @@ public class Modules extends System<Modules> {
         add(new BoatFly());
         add(new BoatGlitch());
         add(new BoatPhase());
+        add(new BlockIn());
         add(new ClickTP());
         add(new ElytraBoost());
         add(new ElytraFly());
@@ -579,6 +581,7 @@ public class Modules extends System<Modules> {
         add(new BetterTab());
         add(new BookBot());
         add(new CustomPackets());
+        add(new ContainerFailure());
         add(new DiscordPresence());
         add(new Generator());
         add(new MessageAura());
