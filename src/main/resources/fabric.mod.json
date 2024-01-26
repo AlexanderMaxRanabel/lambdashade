@@ -19,9 +19,6 @@
   "icon": "assets/meteor-client/icon.png",
   "environment": "client",
   "entrypoints": {
-    "preLaunch": [
-      "com.llamalad7.mixinextras.MixinExtrasBootstrap::init"
-    ],
     "client": [
       "meteordevelopment.meteorclient.MeteorClient"
     ]
@@ -56,6 +53,7 @@
     "feather": "*",
     "origins": "*",
     "wurst": "*",
-    "sodium": "<0.5.0"
+    "sodium": "<0.5.4",
+    "morechathistory": "*"
   }
 }
